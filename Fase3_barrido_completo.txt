@@ -1,0 +1,3 @@
+Durante este día estuvimos probando únicamente la lectura del sensor de distancia para luego añadir lo hecho anteriormente.
+Este programa hace que el servomotor se mueva de un lado a otro, como si estuviera “barriendo" el espacio frente a él. Empieza en un ángulo de 30° y cada 10 milisegundos se mueve hacia un lado. Cuando llega a los extremos 10° o 170°, cambia de dirección y empieza a moverse hacia el otro lado.
+Este movimiento continuo permite que el servo explore todo el rango de visión sin detenerse. Es útil para que el robot pueda mirar a su alrededor y detectar por dónde puede avanzar. Aunque el código es corto, logra un efecto visual claro y repetitivo que sirve como base para tomar decisiones en otros programas
