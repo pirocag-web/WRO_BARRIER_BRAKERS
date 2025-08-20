@@ -1,1 +1,1 @@
-
+El día de hoy codificamos los sensores de color para verificar si detecta los colores. Este código mide pulsos reflejados en rojo, verde y azul. Si el rojo es bajo y menor que el azul, detecta rojo; si el azul es el más bajo, detecta azul; y si el verde es el más bajo, detecta verde. Los valores se imprimen por serial para validar lecturas. Aunque no hay movimiento aún, esta fase prepara al carrito para reaccionar según el color en futuras etapas.
