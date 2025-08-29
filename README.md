@@ -34,15 +34,15 @@ Sensores ultrasónicos e infrarrojos:
   Los módulos de control de motores envían señales eléctricas de control (PWM) a los motores, que responden girando las ruedas en la dirección y velocidad indicadas por el algoritmo del sistema.
 
 Placa Arduino Mega: 
-  Es el corazón del vehículo, donde se ejecutan todos los módulos. Sus pines de entrada y salida permiten conectar sensores y motores, recibiendo y enviando señales electromagnéticas que transforman la información digital en movimientos físicos.
+  Es donde se ejecutan todos los módulos. Sus pines de entrada y salida permiten conectar sensores y motores, recibiendo y enviando señales electromagnéticas que transforman la información digital en movimientos físicos.
 
   Integración:  
   El sistema se comunica internamente mediante variables y funciones. Los sensores informan al módulo de lógica, que decide cómo actuar y da órdenes a los motores y servos para ejecutar los movimientos. Así, el vehículo responde de forma automática y adaptativa a su entorno.
   
 
-Proceso de construcción, compilación y carga en Arduino Mega
+Proceso Para realizar el carro
 
-1. Montaje físico del vehículo**  
+1. Montaje físico del vehículo  
 Se empieza por ensamblar el chasis y montar la placa Arduino Mega en una posición central. Los sensores de obstáculos se colocan en la parte frontal y lateral, mientras que el sensor de color se instala en la parte inferior, cerca de las ruedas delanteras. Los motores y servos se fijan a las ruedas y ejes, asegurando una conexión firme y estable. Todos los componentes se conectan a los pines correspondientes de la placa según el diagrama de conexiones.
 
 2. Preparación del ambiente de desarrollo 
@@ -57,8 +57,8 @@ En el Arduino IDE, utiliza el botón de “Verificar” para compilar el código
 5. Carga del código en la placa 
 Conecta la placa Arduino Mega a la PC mediante cable USB. Selecciona el modelo de placa y el puerto en el menú de herramientas. Haz clic en “Subir” para cargar el código. Cuando el proceso finalice, la placa ejecutará automáticamente el programa y el vehículo estará listo para operar.
 
-6. Pruebas y ajustes**  
-Coloca el vehículo en el área de prueba y observa su comportamiento. Verifica que los sensores detecten obstáculos y que el sensor de color siga las líneas correctamente. Ajusta parámetros en el código si es necesario y repite el proceso de compilación y carga hasta obtener el resultado deseado.
+6. Pruebas y ajustes  
+Colocamos el vehículo en el área de prueba y observamos su comportamiento. Verificamos que los sensores detecten obstáculos y que el sensor de color siga las líneas correctamente. Ajustamos parámetros en el código si es necesario y repetimos el proceso de compilación y carga hasta obtener el resultado deseado.
 
 
-El proyecto WRO_BARRIER_BRAKERS es un ejemplo didáctico de cómo la robótica integra módulos de software y componentes electromagnéticos para crear vehículos inteligentes. El proceso de construcción y programación en Arduino Mega permite experimentar con tecnología en un entorno educativo. Este enfoque facilita la comprensión y la mejora continua, invitando a estudiantes y aficionados a explorar el fascinante mundo de la robótica y la ingeniería.
+Este proyecto es un ejemplo de cómo la robótica integra módulos de software y componentes electromagnéticos para crear vehículos inteligentes. El proceso de construcción y programación en Arduino Mega permite experimentar con tecnología en un entorno educativo. Este enfoque facilita la comprensión y la mejora continua, invitando a estudiantes y aficionados a explorar el fascinante mundo de la robótica y la ingeniería.
