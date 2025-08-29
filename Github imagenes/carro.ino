@@ -1,11 +1,11 @@
 # 1. Ve a la carpeta de tu proyecto (cambia 'mi-proyecto' por el nombre real)
-cd ~/Este-equipo/descargas/Github-imagenes
+cd ~/Este-equipo/descargas/Github imagenes
 
 # 2. Crea la carpeta Github imagenes (si no existe)
 mkdir "Github imagenes"
 
 # 3. Copia las imágenes a la carpeta Github imagenes
-cp ~/Este-equipo/descargas/carro_desde_arriba.jpg ~Este-equipo/descargas/carro_vista_de_lado.jpg "Github imagenes/"
+cp ~/Este equipo/descargas/carro desde arriba.jpg ~Este equipo/descargas/carro vista de lado.jpg "Github imagenes/"
 
 # 4. Verifica que las imágenes estén en la carpeta
 ls "Github imagenes"
